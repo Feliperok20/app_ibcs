@@ -21,10 +21,6 @@ export function Header (){
         style={styles.image}
         //resizeMode="center"
         />
-
-
-
-
         </LinearGradient>
 
     )
