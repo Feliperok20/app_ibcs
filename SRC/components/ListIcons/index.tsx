@@ -16,21 +16,21 @@ import { theme } from '../../global/styles/theme'
         return (
             <View style={styles.container}>
                 <View style={styles.icons}>
-                    <Icon title= "Leitura" >
+                    <Icon title= "Leitura" navigate='help' >
                         <AntDesign
                             name= "book"
                             size={55}
                             color={theme.colors.icon}
                         />
                     </Icon>
-                    <Icon title= "Agenda" >
+                    <Icon title= "Agenda" navigate='events' >
                         <AntDesign
                             name= "calendar"
                             size={55}
                             color={theme.colors.icon}
                         />
                     </Icon>
-                    <Icon title= "Oferta" >
+                    <Icon title= "Oferta" navigate='help' >
                         <AntDesign
                             name= "hearto"
                             size={55}
@@ -40,21 +40,21 @@ import { theme } from '../../global/styles/theme'
                 </View>
                 
                 <View style={styles.icons}>
-                    <Icon title= "Live" >
+                    <Icon title= "Live" navigate='help'>
                         <MaterialIcons
                             name= "live-tv"
                             size={55}
                             color={theme.colors.icon}
                         />
                     </Icon>
-                    <Icon title= "Pedidos" >
+                    <Icon title= "Pedidos" navigate='prayerRequest' >
                         <FontAwesome5
                             name= "pray"
                             size={55}
                             color={theme.colors.icon}
                         />
                     </Icon>
-                        <Icon title= "" >
+                        <Icon title= "" navigate='help' >
                     </Icon>
                 </View>
 

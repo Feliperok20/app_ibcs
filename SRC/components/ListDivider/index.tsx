@@ -12,7 +12,7 @@ return(
     <View
     style={[
         styles.container,
-        isCentered?{ marginVertical:10,}:{marginTop:2, marginBottom:31,}
+        isCentered?{ marginVertical:2,}:{marginTop:2, marginBottom:31,}
 
        ]}    
     />

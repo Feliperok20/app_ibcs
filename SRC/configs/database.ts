@@ -1,0 +1,13 @@
+const DATABASE_NAME = '@ibcs'
+
+const COLLECTION_SCHEDULE = `${DATABASE_NAME}:schedule`;
+const COLLECTION_PRAY = `${DATABASE_NAME}:pray`;
+const COLLECTION_NEWS = `${DATABASE_NAME}:news`;
+
+
+
+export {
+    COLLECTION_SCHEDULE,
+    COLLECTION_PRAY,
+    COLLECTION_NEWS,
+}
